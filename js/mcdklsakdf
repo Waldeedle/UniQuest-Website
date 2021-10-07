@@ -1,0 +1,15 @@
+//banner disappears as you scroll down
+$(function() {
+	
+	//to reference the container for our banner
+	var banner = $('#banner');
+
+	$(window).on('scroll', function(){
+
+		//to reference the scroll position of the page everytime you scroll
+		var st = $(this).scrollTop();
+
+		//to change the banner based on scroll position
+		banner.css({'height': (=-st)});
+	});
+});

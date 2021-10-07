@@ -1,0 +1,190 @@
+#slider {
+  margin-top: -6.1em;
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#gallery {
+  width: 1600px;
+  height: 774.5px;
+  overflow: hidden;
+}
+
+#slider .slides {
+  display: block;
+  width: 13440px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 1600;
+}
+
+#intro_header {
+  font-family: Georgia;
+  font-size: 68px;
+  margin-top: 45px;
+  margin-left: 0px;
+}
+
+/* Resets */
+ul {
+  padding: 0;
+  margin: 0 0 20px 0;
+  list-style: none;
+}
+
+h1, h2 {
+  padding 0;
+  margin: 0 0 20px 0;
+  font-weight: normal;
+}
+
+p {
+  padding 0;
+  margin: 0 0 20px 0;
+}
+
+a:link, a:visited {
+  text-decoration: underline;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  padding: 5px 0;
+}
+
+ul li input[type="text"], ul li input[type="password"] {
+  width: 200px;
+}
+
+/* Headers */
+h1{
+  font-size: 1.8em;
+}
+
+h2 {
+  font-size: 1.4em;
+}
+
+/* Containers */
+body {
+  background: white;
+  font-family: Arial;
+  font-size: 0.8em;
+  margin: 0;
+}
+
+#container, footer {
+  background: #fff;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+ margin-top: 10px;
+ margin-left: 330px;
+}
+
+footer {
+  border-radius: 0 0 5px 5px;
+}
+
+.widget {
+  margin-bottom: 20px;
+}
+
+.widget h2 {
+  margin: 0 0 10px 0;
+  padding: 0 5px;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+}
+
+.widget .inner {
+  margin: 0 10px;
+}
+
+/* Navigation */
+nav{
+  float:left;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+nav ul li .current {
+  font-weight: bold;
+}
+
+nav ul li a .last {
+  border-right: 0;
+}
+
+/* Aside */
+aside{
+  width: 260px;
+  float: right;
+  border-left: 1px dashed #aaa;
+  padding-left:15px;
+}
+
+/* Login */
+#login li .link {
+  margin-top: 5px;
+}
+
+/* Footer */
+footer {
+  border-top: 1px dashed #ddd;
+  color: #999;
+}
+
+/* Misc */
+.clear {
+  clear: both;
+  height: 5em;
+}
+
+#sorting {
+text-decoration: none;
+color: #0088E9;
+font-family: Caviar Dreams;
+}
+
+#alignfoot {
+  position: absolute;
+  margin-top: 16.5em;
+  text-align: center;
+}
+
+#information {
+  height: 225px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-top: -8px;
+  border-top: 2px solid red;
+  z-index: -15;
+  text-align: center;
+  font-family: Caviar Dreams;
+  font-size: 2em;
+}

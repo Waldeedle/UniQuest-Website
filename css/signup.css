@@ -1,0 +1,318 @@
+html {
+  background-color: #EAEBEF;
+}
+
+ body {
+  margin: 0;
+}
+
+#banner {
+  height: 10px;
+  position: fixed;
+  margin-top: -100px;
+}
+
+.icon {
+  z-index: 20;
+  position: absolute;
+  opacity: 1;
+  margin-left: -2px;
+}
+
+#bit {
+  margin-left: 22px;
+}
+
+#unisign {
+  margin-left: -50px;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    z-index: 13;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+#clear {
+text-decoration: none;
+border: none;
+}
+
+#information {
+  font: Georgia;
+  height: 500px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+}
+
+#btn1 {
+ margin-top: 5px;
+ margin-left: 10px;
+ position: fixed;
+ padding-left: 5px; 
+ padding-right: 5px; 
+}
+
+#btn2 {
+ margin-top: 5px;
+ position: fixed;
+ margin-left: 192px;
+ padding-left: 5px; 
+ padding-right: 5px; 
+}
+
+#btn3 { 
+ margin-top: 5px;
+ position: fixed;
+ margin-left: 348px;
+ padding-left: 5px; 
+ padding-right: 5px;
+}
+
+#intro_header {
+  font-family: Georgia;
+  font-size: 68px;
+  margin-left: 33%;
+  margin-top: 4px;
+}
+
+#log {
+ background-color: #D3D9E5;
+ font-size: 30px;
+ margin-left: 1670px;
+ margin-top:10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+ text-decoration: none;
+}
+
+#sign {
+ background-color: #D3D9E5;
+ font-size: 30px;
+ margin-left: 1450px;
+ margin-top: 10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+ text-decoration: none;
+}
+
+#link1{
+ background-color: #FFFFFF;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 875px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+ text-decoration: none;
+}
+
+#link1:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 865px;
+  position: fixed;
+  opacity: 1;
+  text-decoration: none;
+}
+
+#link:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 1045px;
+  position: fixed;
+  text-decoration: none;
+}
+
+#link{
+ background-color: #FFFFFF;
+ font-size: 30px;
+ color: #009CE9;
+ margin-top: 10px;
+ margin-left: 1055px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+ text-decoration: none;
+}
+
+#link2{
+ background-color: #FFFFFF;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 295px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+ text-decoration: none;
+}
+
+#link2:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 285px;
+  position: fixed;
+  text-decoration: none;
+}
+
+#create{
+  margin-left: 50px;
+  margin-top: 100px;
+}
+
+#link3{
+ background-color: #FFFFFF;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 505px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+ text-decoration: none;
+}
+
+#link3:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 495px;
+  position: fixed;
+  text-decoration: none;
+}
+
+#link4{
+ background-color: #FFFFFF;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 685px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+ text-decoration: none;
+}
+
+#link4:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 677px;
+  position: fixed;
+  text-decoration: none;
+}
+
+#sign:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+#log:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+  text-decoration: none;
+}
+
+button {
+ text-decoration: none;
+ background-color: #009CE9;
+ font-family: Caviar Dreams; 
+ color: white;
+ font-size: 35px;
+ border-right: 1px solid black;
+ border-left: 1px solid black;
+}
+
+button:hover {
+ text-decoration: none;
+ background-color: #0070A6;
+ font-family: Caviar Dreams; 
+ color: white;
+}
+
+body button {
+  border: none;
+  margin-top: 3px;
+}
+
+title {
+  margin-top: 100px;
+}
+
+#test {
+    border-radius: 3px;
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 15px;
+}
+
+input {
+  height: 50px;
+  width: 200px;
+  font-size: 30px;
+  font-family: Caviar Dreams;
+  border-radius: 3px;
+  border: none;
+}
+
+#s-fname {
+  width: 400px;
+  margin-bottom: 20px;
+}
+
+#s-lname {
+margin-left:20px;
+margin-top: -600px;
+width: 400px;
+margin-bottom: 20px;
+}
+
+#s-hs {
+width:830px;
+margin-bottom: 20px;
+}
+
+#s-email {
+width:830px;
+margin-bottom: 20px;
+}
+
+#s-studnumber {
+width: 400px;
+margin-bottom: 20px;
+}
+
+#s-username {
+width:830px;
+margin-bottom: 20px;
+}
+
+#s-grade {
+margin-bottom: 20px;
+}
+
+#s-password {
+width:830px;
+}
+

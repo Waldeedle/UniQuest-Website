@@ -1,0 +1,389 @@
+/* Resets */
+ul {
+	padding: 0;
+	margin: 0 0 20px 0;
+	list-style: none;
+}
+
+h1, h2 {
+	padding 0;
+	margin: 0 0 20px 0;
+	font-weight: normal;
+}
+
+p {
+	padding 0;
+	margin: 0 0 20px 0;
+}
+
+a:link, a:visited {
+	text-decoration: underline;
+	color: #000;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+ul li {
+	padding: 5px 0;
+}
+
+ul li input[type="text"], ul li input[type="password"] {
+	width: 200px;
+}
+
+textarea {
+	width: 400px;
+	height: 150px;
+}
+
+/* Headers */
+h1{
+	font-size: 2.5em;
+	font-family: Caviar Dreams;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-family: Caviar Dreams;
+}
+
+/* Containers */
+body {
+	background: #D3D9E5;
+	font-family: Arial;
+	font-size: 0.8em;
+  	margin: 0;
+}
+
+#profilepict {
+	height: 15em;
+}
+
+#container, footer {
+	background: #fff;
+	width: 1220px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+header {
+	width: 940px;
+	padding: 10px;
+	margin-left: 25em;
+}
+
+#container {
+	min-height: 500px;
+	border-radius:5px 5px 0 0;
+}
+
+footer {
+	border-radius: 0 0 5px 5px;
+}
+
+.widget {
+	margin-bottom: 20px;
+}
+
+.widget h2 {
+	margin: 0 0 10px 0;
+	padding: 0 5px;
+	font-weight: normal;
+	border-bottom: 1px solid #ddd;
+}
+
+.widget .inner {
+	margin: 0 10px;
+}
+
+/* Navigation */
+nav{
+	float:left;
+}
+
+nav ul {
+	margin: 0;
+}
+
+nav ul li {
+	display: inline;
+	margin-right: 10px;
+}
+
+nav ul li a {
+	text-decoration: none;
+}
+
+nav ul li .current {
+	font-weight: bold;
+}
+
+nav ul li a .last {
+	border-right: 0;
+}
+
+/* Aside */
+aside{
+	width: 260px;
+	float: right;
+	border-left: 1px dashed #aaa;
+	padding-left:15px;
+}
+
+.profile {
+	background: #f9f9f9;
+	border: 1px dashed #ccc;
+	padding: 5px;
+}
+
+.profile img {
+	width: 100%;
+}
+
+#profilepic {
+	width: 15.3em;
+	height: 20.5em;
+}
+
+.img-frame {
+    background: #ffffff;
+    padding: 12px;
+    border: 1px solid #999999; 
+}
+/* Login */
+#login li .link {
+	margin-top: 5px;
+}
+
+/* Footer */
+footer {
+	border-top: 1px dashed #ddd;
+	color: #999;
+	text-align: center;
+}
+
+/* Misc */
+.clear {
+	clear: both;
+  height: 5em;
+}
+
+#montage-wrap { 
+	width: 950px; 
+	height: 590px; 
+}
+
+.montage-block { 
+	width: 182.5px; 
+	height: 200px; 
+	float: left; 
+	display: block; 
+	overflow: hidden; 
+	position: relative; 
+    background: white; 
+    border: 1px solid #666;
+}
+
+.montage-block1 { 
+	width: 920px; 
+	height: 400px; 
+	float: left; 
+	display: block; 
+	overflow: hidden; 
+	position: relative; 
+	background: white; 
+    border: 1px solid #666;
+}
+
+.montage-block2 { 
+	width: 459px; 
+	height: 200px; 
+	float: left; 
+	display: block; 
+	overflow: hidden; 
+	position: relative; 
+    background: white; 
+    border: 1px solid #666;
+}
+
+.montage-block:last-child { 
+	margin: 0; 
+} /* removes margin on last block */
+
+#block1 { 
+	width: 182.5px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('team/Waleed.JPG') no-repeat;
+    background-size: 182.5px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+#block { 
+	width: 920px; 
+	height: 400px; 
+	position: absolute; 
+	display: block;
+    background: url('team/team.JPG') no-repeat;
+    background-size: 920px 600px; 
+    background-position: center;
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+#office { 
+	width: 920px; 
+	height: 400px; 
+	position: absolute; 
+	display: block;
+    background: url('location/contactus.JPG') no-repeat;
+    background-size: 920px 400px; 
+    background-position: center;
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+
+#block2 { 
+	width: 182.5px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('team/Pranjal.JPG') no-repeat; 
+    background-size: 182.5px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+#block3 { 
+	width: 182.5px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('team/Avneesh.JPG') no-repeat; 
+    background-size: 182.5px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+#block4 { 
+	width: 182.5px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('team/Surya.JPG') no-repeat; 
+    background-size: 182.5px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+ 
+#block5 { 
+	width: 182.5px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('team/Shubham.JPG') no-repeat; 
+    background-size: 182.5px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+#block6 { 
+	width: 459px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('location/phone.png') no-repeat; 
+    background-size: 459px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+#block7 { 
+	width: 459px; 
+	height: 200px; 
+	position: absolute; 
+	display: block;
+    background: url('location/email.png') no-repeat; 
+    background-size: 459px 200px; 
+    -webkit-transition: top .3s ease-in-out; 
+}
+
+ 
+ .montage-block:hover #block1 { 
+ 	top: -150px; 
+}
+ 
+ .montage-block:hover #block2 { 
+ 	top: -150px; 
+}
+
+ .montage-block:hover #block3 { 
+ 	top: -150px; 
+}
+
+ .montage-block:hover #block4 { 
+ 	top: -150px; 
+}
+
+ .montage-block:hover #block5 { 
+ 	top: -150px; 
+}
+
+ .montage-block1:hover #block { 
+ 	top: -150px; 
+}
+
+ .montage-block1:hover #office { 
+ 	top: -150px; 
+}
+
+ .montage-block2:hover #block6 { 
+ 	top: -150px; 
+}
+
+ .montage-block2:hover #block7 { 
+ 	top: -150px; 
+}
+
+
+.thumb_content  { 
+	padding: 70px 15px 0 15px;
+	color: #777;
+}
+
+.thumb_content h1 { 
+	margin: 0 0 5px 0; 
+	color: #666;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.thumb_content2  { 
+	padding: 260px 15px 0 15px;
+	color: #777;
+}
+
+.thumb_content2 h1 { 
+	margin: 0 0 5px 0; 
+	color: #666;
+	font-size: 25px;
+}
+
+#desc {
+	margin-left: 95px;
+	font-size: 14px;
+}
+
+#mssemail {
+	border-radius: 15px;
+}
+
+#programs {
+	border-radius: 20px;
+	height: 200px;
+	width: 920px;
+}
+
+#bouton {
+	border: 1px solid black;
+	border-radius: 1005px;
+	height: 225px;
+	width: 225px;
+}

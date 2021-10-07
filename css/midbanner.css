@@ -1,0 +1,205 @@
+body {
+  margin: 0;
+}
+
+#banner {
+  height: 10px;   
+  position: fixed;
+  margin-left: -25.8em;
+  margin-top: -0.75em;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    z-index: 13;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon {
+  z-index: 20;
+  position: absolute;
+  opacity: 1;
+}
+
+#clear {
+text-decoration: none;
+border: none;
+}
+
+button {
+  border: none;
+}
+
+#log {
+ background-color: #D3D9E5;
+ font-size: 27px;
+ margin-left: 1350px;
+ margin-top:10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#logout {
+ background-color: #D3D9E5;
+ font-size: 27px;
+ margin-left: 1240px;
+ margin-top:10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#sign {
+ background-color: #D3D9E5;
+ font-size: 27px;
+ margin-left: 1120px;
+ margin-top: 10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#link1{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 625px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link1:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 620px;
+  position: fixed;
+  opacity: 1;
+}
+
+#link:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 755px;
+  position: fixed;
+}
+
+#link{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-top: 10px;
+ margin-left: 760px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link2{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 230px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link2:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 225px;
+  position: fixed;
+}
+
+#link3{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 385px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link3:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 380px;
+  position: fixed;
+}
+
+#link4{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 520px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link4:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 515px;
+  position: fixed;
+}
+
+#sign:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+#log:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+#logout:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+#admin {
+ background-color: #D3D9E5;
+ font-size: 27px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: absolute;
+ margin-left: -100px;
+}

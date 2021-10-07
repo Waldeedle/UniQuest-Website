@@ -1,0 +1,290 @@
+html {
+  background-image: url("jf.jpg");
+}
+
+ body {
+  margin: 0;
+ }
+
+#slider {
+  width: 100%;
+  height: auto;
+  overflow: hidden;
+}
+
+#gallery {
+  width: 1920px;
+  height: 1007.5px;
+  overflow: hidden;
+}
+
+#slider .slides {
+  display: block;
+  width: 13440px;
+  margin: 0;
+  padding: 0;
+}
+
+#slider .slide {
+  float: left;
+  list-style-type: none;
+  width: 1430;
+}
+
+#banner {
+  height: 10px;
+  position: fixed;
+}
+
+.header {
+  	height: 60px;
+  	width: 100%;
+  	position: fixed;
+  	padding: 0;
+  	z-index: 13;
+  	background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon {
+  z-index: 20;
+  position: absolute;
+  opacity: 1;
+  margin-left: -2px;
+}
+
+#clear {
+text-decoration: none;
+border: none;
+}
+
+#information {
+  height: 225px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-top: -5px;
+  border-top: 5px solid red;
+  z-index: -15;
+}
+
+button {
+  border: none;
+}
+
+#intro_header {
+  font-family: Georgia;
+  font-size: 68px;
+  margin-left: 33%;
+  margin-top: 75px;
+}
+
+#log {
+ background-color: #D3D9E5;
+ font-size: 30px;
+ margin-left: 1670px;
+ margin-top:10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#sign {
+ background-color: #D3D9E5;
+ font-size: 30px;
+ margin-left: 1450px;
+ margin-top: 10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#link1{
+ background-color: #FFFFFF;
+ text-decoration: none;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 875px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link1:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 865px;
+  position: fixed;
+  opacity: 1;
+}
+
+#link:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 1045px;
+  position: fixed;
+}
+
+#link{
+ background-color: #FFFFFF;
+ text-decoration: none;
+ font-size: 30px;
+ color: #009CE9;
+ margin-top: 10px;
+ margin-left: 1055px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link2{
+ background-color: #FFFFFF;
+ text-decoration: none;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 295px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link2:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 285px;
+  position: fixed;
+}
+
+#link3{
+ background-color: #FFFFFF;
+ text-decoration: none;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 505px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link3:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 495px;
+  position: fixed;
+}
+
+#link4{
+ background-color: #FFFFFF;
+ text-decoration: none;
+ font-size: 30px;
+ color: #009CE9;
+ margin-left: 685px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link4:hover {
+  color: #0070A6;
+  font-size: 35px;
+  margin-top: 5px;
+  margin-left: 677px;
+  position: fixed;
+}
+
+#sign:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+#log:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+.login {
+    background-color: #1e90ff;
+    width: 18%;
+    border-radius: 25px;
+    border: 2px solid #0070A6;
+    padding: 20px; 
+    width: 19em;
+    height: 21em; 
+}
+
+.instruction {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+.username {
+    font-size: 18px;
+    font-family: Georgia;  
+}
+
+.password {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.submit {
+  background-color: #000080;
+  font-size: 30px;
+  height: 45px;
+  width: 200px;
+  font-family: Caviar Dreams;
+  color: #FFFFFF;
+  border-radius: 2.5px;
+  border: 2px solid #0070A6;
+}
+
+.signlink {
+  background-color: #000080;
+  font-size: 30px;
+  height: 45px;
+  width: 200px;
+  font-family: Caviar Dreams;
+  color: #FFFFFF;
+  border-radius: 2.5px;
+  border: 2px solid #0070A6;
+}
+
+#student {
+    float: left;
+    margin-left: 25%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#university {
+    float: right;
+    margin-right: 25%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+input {
+  font-size: 300px;
+  height: 40px;
+  width: 300px;
+  font-family: Caviar Dreams;
+  border-radius: 2.5px;
+  border: 2px solid #0070A6;
+}

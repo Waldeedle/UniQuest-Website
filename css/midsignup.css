@@ -1,0 +1,37 @@
+#test {
+    border-radius: 3px;
+    width: 50%;
+    padding-left: 50px;
+    padding-bottom: 15px;
+    margin-top: 3em;
+}
+
+input {
+  height: 32px;
+  width: 300px;
+  font-size: 30px;
+  font-family: Caviar Dreams;
+  border-radius: 3px;
+  border: 1px solid #D3D9E5;
+}
+
+#s-username {
+width:300px;
+margin-bottom: 20px;
+}
+
+button {
+  border: none;
+}
+
+#submit {
+  margin-left: 85px;
+  height: 40px;
+  width: 130px;
+  text-decoration: none;
+  background-color: #009CE9;
+  font-family: Caviar Dreams;
+  color: white;
+  font-size: 35px;
+  border-radius: 3px;
+}

@@ -1,0 +1,288 @@
+html {
+  background-image: url("jf.jpg");
+}
+
+body {
+  margin: 0;
+  padding-top: 3em;
+}
+
+#banner {
+  height: 10px;   
+  position: fixed;
+  margin-top: -3em;
+}
+
+.header {
+    height: 60px;
+    width: 100%;
+    position: fixed;
+    padding: 0;
+    z-index: 13;
+    background-color: #FFFFFF;
+    opacity: 1;
+}
+
+.icon {
+  z-index: 20;
+  position: absolute;
+  opacity: 1;
+  content: url("C:/Users/Sony/Documents/IBT/Grade%2012/Semester%202/ICS/UniQuest/images/Icon75.png")
+}
+
+#clear {
+text-decoration: none;
+border: none;
+}
+
+#information {
+  height: 225px;
+  width: 100%;
+  background-color: #FFFFFF;
+  position: absolute;
+  margin-top: -5px;
+  border-top: 5px solid red;
+  z-index: -15;
+}
+
+button {
+  border: none;
+}
+
+#intro_header {
+  font-family: Georgia;
+  font-size: 68px;
+  margin-left: 33%;
+  margin-top: 75px;
+}
+
+#log {
+ background-color: #D3D9E5;
+ font-size: 27px;
+ margin-left: 1370px;
+ margin-top:10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#sign {
+ background-color: #D3D9E5;
+ font-size: 27px;
+ margin-left: 1150px;
+ margin-top: 10px;
+ height: 40px;
+ width: 200px;
+ color: #0070A6;
+ font-family: Caviar Dreams;
+ opacity: 0.5;
+ position: fixed;
+}
+
+#link1{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 665px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link1:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 660px;
+  position: fixed;
+  opacity: 1;
+}
+
+#link:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 800px;
+  position: fixed;
+}
+
+#link{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-top: 10px;
+ margin-left: 805px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link2{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 230px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link2:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 225px;
+  position: fixed;
+}
+
+#link3{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 385px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link3:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 380px;
+  position: fixed;
+}
+
+#link4{
+ background-color: transparent;
+ text-decoration: none;
+ font-size: 27px;
+ color: #009CE9;
+ margin-left: 520px;
+ margin-top: 10px;
+ font-family: Caviar Dreams;
+ border: none;
+ position: fixed;
+}
+
+#link4:hover {
+  color: #0070A6;
+  font-size: 30px;
+  margin-top: 8px;
+  margin-left: 515px;
+  position: fixed;
+}
+
+#sign:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+#log:hover {
+  background-color: #0088E9;
+  font-weight: bold;
+  color: white;
+}
+
+button {
+ text-decoration: none;
+ background-color: #009CE9;
+ font-family: Caviar Dreams; 
+ color: white;
+ font-size: 35px;
+ border-right: 1px solid black;
+ border-left: 1px solid black;
+}
+
+button:hover {
+ text-decoration: none;
+ background-color: #0070A6;
+ font-family: Caviar Dreams; 
+ color: white;
+}
+
+body #banner button {
+  border: none;
+}
+
+.login {
+    background-color: #1e90ff;
+    width: 18%;
+    border-radius: 25px;
+    border: 2px solid #0070A6;
+    padding: 20px; 
+    width: 19em;
+    height: 21em; 
+}
+
+.instruction {
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: Georgia;
+}
+
+.username {
+    font-size: 18px;
+    font-family: Georgia;  
+}
+
+.password {
+    font-size: 18px;
+    font-family: Georgia;
+}
+
+.submit {
+  background-color: #000080;
+  font-size: 30px;
+  height: 45px;
+  width: 200px;
+  font-family: Caviar Dreams;
+  color: #FFFFFF;
+  border-radius: 2.5px;
+  border: 2px solid #0070A6;
+}
+
+.signlink {
+  background-color: #000080;
+  font-size: 30px;
+  height: 45px;
+  width: 200px;
+  font-family: Caviar Dreams;
+  color: #FFFFFF;
+  border-radius: 2.5px;
+  border: 2px solid #0070A6;
+}
+
+#student {
+    float: left;
+    margin-left: 25%;
+    margin-top: 15%;
+    text-align: center;
+}
+
+#university {
+    float: right;
+    margin-right: 25%;
+    text-align: center;
+    margin-top: 15%;
+}
+
+input {
+  font-size: 300px;
+  height: 40px;
+  width: 300px;
+  font-family: Caviar Dreams;
+  border-radius: 2.5px;
+  border: 2px solid #0070A6;
+}
